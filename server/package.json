@@ -4,6 +4,7 @@
    "description": "Awesome project developed with TypeORM.",
    "devDependencies": {
       "@types/cors": "^2.8.12",
+      "@types/dotenv": "^8.2.0",
       "@types/express": "^4.17.13",
       "@types/graphql": "^14.5.0",
       "@types/jsonwebtoken": "^8.5.5",
@@ -16,6 +17,7 @@
       "apollo-server-express": "2.9.3",
       "class-validator": "^0.13.1",
       "cors": "^2.8.5",
+      "dotenv": "^10.0.0",
       "express": "^4.17.1",
       "graphql": "^15.5.2",
       "jsonwebtoken": "^8.5.1",

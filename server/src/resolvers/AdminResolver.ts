@@ -34,12 +34,13 @@ export class AdminResolver {
 
   @Mutation(() => LoginResp)
   async login(@Arg("password") password: string): Promise<LoginResp> {
-    const pass: string = "kbcdkhbcd";
+    const pass = process.env.P;
+    const at = process.env.AT;
     if (pass !== password) {
       throw new Error("Err");
     }
     return {
-      accessToken: sign({}, "sbjsbdbds", { expiresIn: "5s" }),
+      accessToken: sign({}, at as string , { expiresIn: "7d" }),
     };
   }
 }

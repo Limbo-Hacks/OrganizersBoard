@@ -6,6 +6,9 @@ import cors from "cors";
 import { AdminResolver } from "./resolvers/AdminResolver";
 import express from "express";
 import { HackerResolver } from "./resolvers/HackerResolver";
+import dotenv from 'dotenv';
+
+dotenv.config();
 
 // Lambda Function
 (async () => {
