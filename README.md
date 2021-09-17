@@ -8,9 +8,9 @@ A board where all the organizers have access to the details of the hackers, orga
 Frontend is not complete.
 
 ### Directories
-[https://github.com/Limbo-Hacks/OrganizersBoard/tree/main/kofta](Kofta) is the directory for the frontend part.
+[Kofta](https://github.com/Limbo-Hacks/OrganizersBoard/tree/main/kofta) is the directory for the frontend part.
 
-[https://github.com/Limbo-Hacks/OrganizersBoard/tree/main/kofta/src/graphql](GraphQL) is for all the mutations and queries schemas.
+[GraphQL](https://github.com/Limbo-Hacks/OrganizersBoard/tree/main/kofta/src/graphql) is for all the mutations and queries schemas.
 
 ### Stacks
 - `ReactJS` with TypeScript
@@ -21,9 +21,9 @@ Frontend is not complete.
 
 ### Directories
 
-[https://github.com/Limbo-Hacks/OrganizersBoard/tree/main/server/src](src) is for all the backend code.
+[src](https://github.com/Limbo-Hacks/OrganizersBoard/tree/main/server/src) is for all the backend code.
 
-[https://github.com/Limbo-Hacks/OrganizersBoard/blob/main/server/src/index.ts](index.ts) is the root file and the lambda function is there.
+[index.ts](https://github.com/Limbo-Hacks/OrganizersBoard/blob/main/server/src/index.ts) is the root file and the lambda function is there.
 
 ### Stacks
 - `apollo-server-express` is used as graphql provide with express as a middleware
