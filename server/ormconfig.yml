@@ -1,11 +1,26 @@
-default: # default connection
+first-connection:
   type: "sqlite"
   host: "localhost"
   port: 3306
-  database: "tsnode.sqlite"
+  database: "hackers.sqlite"
   synchronize: true
   logging: false
-  entities: ["src/entity/**/*.ts"]
+  entities: ["src/entity/Hacker.ts"]
+  migrations: ["src/migration/**/*.ts"]
+  subscribers: ["src/subscriber/**/*.ts"]
+  cli:
+    entitiesDir: "src/entity"
+    migrationsDir: "src/migration"
+    subscribersDir: "src/subscriber"
+
+second-connection:
+  type: "sqlite"
+  host: "localhost"
+  port: 3306
+  database: "mentors.sqlite"
+  synchronize: true
+  logging: false
+  entities: ["src/entity/Mentor.ts"]
   migrations: ["src/migration/**/*.ts"]
   subscribers: ["src/subscriber/**/*.ts"]
   cli:
