@@ -15,17 +15,11 @@ Steps to run this project:
 Schemas and Mutations:
 
 1. ### Schemas
-- ```query{
-    hello
-}```   For checking if the graphql server is working or not
+- `query{hello}`   For checking if the graphql server is working or not
 
-- ```query{
-    bye
-}```     For checking if middleware is working or not
+- `query{bye}`     For checking if middleware is working or not
 
-- ```query{
-    hacker
-}```  For returning all the hackers which are registered.
+- `query{hacker}`  For returning all the hackers which are registered.
 
 2. ### Mutations
 
