@@ -1,4 +1,4 @@
-first-connection:
+default:
   type: "sqlite"
   host: "localhost"
   port: 3306

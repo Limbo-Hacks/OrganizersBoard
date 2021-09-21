@@ -4,5 +4,6 @@ node_modules/
 build/
 tmp/
 temp/
-tsnode.sqlite
 .env
+mentors.sqlite
+hackers.sqlite

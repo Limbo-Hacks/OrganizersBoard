@@ -29,8 +29,8 @@ export class AdminResolver {
   @UseMiddleware(isAuth)
   bye(@Ctx() { payload }: AdminContext) {
     console.log(payload);
-    return `Middleware working`
-}
+    return `Middleware working`;
+  }
 
   @Mutation(() => LoginResp)
   async login(@Arg("password") password: string): Promise<LoginResp> {
@@ -40,7 +40,7 @@ export class AdminResolver {
       throw new Error("Err");
     }
     return {
-      accessToken: sign({}, at as string , { expiresIn: "7d" }),
+      accessToken: sign({}, at as string, { expiresIn: "7d" }),
     };
   }
 }
